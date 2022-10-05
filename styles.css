@@ -16,6 +16,7 @@
 body {
   font-family: ProductSans ;
   background-color: #f6f8fc;
+  overflow-x: hidden;
   /* width: 700px; */
 }
 
@@ -652,6 +653,10 @@ display: none;
     min-height: 80px;
     align-items: center;
   }
+  .content{
+    overflow-x:hidden;
+  }
+  
   .mail-details{
     /* background-color: red; */
     width: 100%;
